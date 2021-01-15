@@ -161,7 +161,9 @@ Angle in radians = Angle in degrees x PI / 180.
 ## **HTML5 language & notes**
 Almost all of this project uses the function of canvas.
 Record the order in which you want to make a effect like this in the canvas:
+
 1. Define the graphic style
+
 radius 
 scale 
 hue 
@@ -169,7 +171,9 @@ saturation
 lightness
 alpha
 
+
 2. Movement sequence
+
 save
 translate
 rotate
