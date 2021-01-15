@@ -148,6 +148,38 @@ this.ctx.save();
 ````
 When the effect is over, return to Scene and loop the demonstration.
 
+## **JavaScript language & notes**
+`Math.sin(x)` returns the sine (a value between -1 and 1) of the angle x (given in radians).
+If you want to use degrees instead of radians, you have to convert degrees to radians:
+Angle in radians = Angle in degrees x PI / 180.
 
+`Math.cos(x)` returns the cosine (a value between -1 and 1) of the angle x (given in radians).
+If you want to use degrees instead of radians, you have to convert degrees to radians:
+Angle in radians = Angle in degrees x PI / 180.
+
+
+## **HTML5 language & notes**
+Almost all of this project uses the function of canvas.
+Record the order in which you want to make a effect like this in the canvas:
+1. Define the graphic style
+radius 
+scale 
+hue 
+saturation
+lightness
+alpha
+
+2. Movement sequence
+save
+translate
+rotate
+scale
+rotate
+fill Style
+fill Rect
+restore
+begin Path
+arc
+ 
 
 
