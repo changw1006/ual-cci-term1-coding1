@@ -14,3 +14,13 @@ In <script></script> using functions such as Constructor to create dynamic effec
 this.TAU is the distance between each "branch" of the fireworks, and this.GOLDEN is the rate of color change.
 
 In Scene.prototype, I designed the position of the dynamic pattern on the canvas. After calculation, I placed the pattern in the middle of the canvas.
+
+The part of the requestAnimationFrame function is the focus.
+
+I set count, angle, and amp variables respectively. 
+Use Math.sin() to calculate the rotation angle of the tick. 
+Use Math.cos() to calculate the size, distance and speed of each firework bloom.
+The variables x and y are also calculated using Math.sin() and Math.cos() respectively.
+
+The variables radius, scale, hue, saturation, lightness, and alpha have also been calculated to my satisfaction. 
+Next are some adjustments to the firework style.
