@@ -21,7 +21,8 @@ The Chinese New Year is approaching again. In the previous Spring Festival, the 
 ### Step1
 First we need to set up some basic design such as background color in `<style></style>` using css language, and set up a `<canvas>`. 
 
-````<style>
+````
+<style>
 body {
   background: #000427;
   overflow: hidden; 
