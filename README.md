@@ -164,28 +164,29 @@ Record the order in which you want to make a effect like this in the canvas:
 
 1. Define the graphic style
 
-radius 
-scale 
-hue 
-saturation
-lightness
-alpha
+radius,
+scale,
+hue,
+saturation,
+lightness,
+alpha.
 
 
 2. Movement sequence
 
-save
-translate
-rotate
-scale
-rotate
-fill Style
-fill Rect
-restore
-begin Path
-arc
+save,
+translate,
+rotate,
+scale,
+rotate,
+fillStyle,
+fillRect,
+restore,
+beginPath,
+arc.
  
 ## **Reference**
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+
 https://www.w3schools.com/js/default.asp
 
